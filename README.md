@@ -14,6 +14,7 @@ Here is a list of examples to explore:
 
 - [GPAI Abstracts](gpai/index.html ":ignore")
 - [LLM Papers](llmpapers/index.html ":ignore")
+- [The Art of War](artofwar/index.html ":ignore")
 
 ## Create the data
 
@@ -76,6 +77,11 @@ In `index.html`, you will probably want to change the following (apart from the 
 window.data = await fetch("data.json").then((r) => r.json());
 // Number of characters (letters) per pixel. Increase for smaller documap
 window.charsPerPixel = 20;
+```
+
+```html
+<!-- Change the value to set the default minimum similarity. Higher values show fewer matches -->
+<input type="range" class="form-range ..." value="0.82" />
 ```
 
 Open `index.html` in a browser to view the result.
