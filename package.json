@@ -1,0 +1,74 @@
+{
+  "name": "@gramex/docexplore",
+  "version": "1.0.0",
+  "description": "A template for exploring topics in documents.",
+  "type": "module",
+  "module": "story.js",
+  "scripts": {
+    "lint": "prettier --write '**/*.{js,mjs,ts,md,json}' && eslint"
+  },
+  "files": [
+    "README.md",
+    "dist/*",
+    "story.*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://code.gramener.com/cto/gramex-docexplore"
+  },
+  "keywords": [
+    "document",
+    "topics",
+    "topic-analysis",
+    "topic-modeling",
+    "gramex",
+    "template"
+  ],
+  "author": "S Anand <s.anand@gramener.com>",
+  "contributors": [
+    "Aayush Thakur <aayush.thakur@gramener.com>",
+    "Chandana Sagar <chandana.sagar@gramener.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://code.gramener.com/cto/gramex-docexplore/-/issues"
+  },
+  "homepage": "https://gramener.com/gramex-docexplore/",
+  "dependencies": {
+    "@gramex/documap": "^2.0.0",
+    "@gramex/insighttree": "^3.0.0",
+    "@gramex/network": "^2.0.0",
+    "@gramex/ui": "^0.3.0",
+    "bootstrap": "^5.3.1",
+    "bootstrap-icons": "^1.10.5",
+    "d3": "^7.8.5",
+    "lit-html": "^2.8.0",
+    "scrollama": "^3.2.0"
+  },
+  "prettier": {
+    "printWidth": 120
+  },
+  "eslintConfig": {
+    "root": true,
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "es2022": true,
+      "jest": true
+    },
+    "plugins": [
+      "html"
+    ],
+    "extends": "eslint:recommended"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-plugin-html": "^7.1.0",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "prettier": "^3.0.3"
+  }
+}

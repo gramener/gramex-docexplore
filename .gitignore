@@ -1,0 +1,9 @@
+# Ignore data files
+*.parquet
+*.zip
+
+# Ignore generated files
+node_modules/
+
+# Ignore tool configuration files
+.vscode/

@@ -1,0 +1,13 @@
+validate:
+  image: gramener/builderrors
+  script: builderrors
+
+deploy:
+  stage: deploy
+  script: deploy
+  variables:
+    SERVER: gramener.com
+    URL: gramex-docexplore
+    VERSION: static
+    SETUP: npm install
+    CORS: enabled

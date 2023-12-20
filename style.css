@@ -1,0 +1,50 @@
+:root {
+  --navbar-height: 3.5rem;
+}
+body {
+  padding-top: var(--navbar-height);
+}
+html {
+  scroll-padding-top: var(--navbar-height);
+}
+.step {
+  min-height: 50vh;
+  /* Center text vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.step.active {
+  background-color: var(--bs-body-color);
+  color: var(--bs-body-bg);
+}
+.figure-panel {
+  top: calc(var(--navbar-height));
+  height: calc(100vh - var(--navbar-height) - 1px);
+  overflow-y: auto;
+}
+.figure-panel > * {
+  position: absolute;
+  top: 0;
+  width: calc(100% - 2 * var(--bs-gutter-x));
+  max-height: calc(100vh - var(--navbar-height));
+}
+/* Right side panels are stacked on top of each other. Allow mouse events to pass through hidden panels. */
+[data-panel].fade {
+  display: none;
+}
+[data-panel] {
+  top: var(--navbar-height);
+}
+.navbar #min-similarity::-webkit-slider-runnable-track {
+  background-color: var(--bs-gray-700);
+}
+.navbar #min-similarity::-moz-range-track {
+  background-color: var(--bs-gray-700);
+}
+.documap-topic {
+  cursor: pointer;
+}
+.documap-topic.active {
+  outline: 3px solid rgba(var(--bs-body-color-rgb), 0.8);
+}
