@@ -12,9 +12,9 @@ Here is an example that explores the abstracts of all LLM papers on arxiv.org:
 
 Here is a list of examples to explore:
 
-- [GPAI Abstracts](gpai/index.html ":ignore")
-- [LLM Papers](llmpapers/index.html ":ignore")
-- [The Art of War](artofwar/index.html ":ignore")
+- [GPAI Abstracts](gpai/index.html ":ignore :target=_blank")
+- [LLM Papers](llmpapers/index.html ":ignore :target=_blank")
+- [The Art of War](artofwar/index.html ":ignore :target=_blank")
 
 ## Create the data
 

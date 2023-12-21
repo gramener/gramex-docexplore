@@ -363,7 +363,7 @@ $panelText.addEventListener("click", function (event) {
  *   - Loops through the data and sequences it by the columns into a nested object structure.
  *   - Pushes each sequenced item into a sequencedData array to return the final structure.
  */
-export function sequence(data, columns) {
+function sequence(data, columns) {
   const addedTopics = {};
   const sequencedData = [];
   data.forEach(function (item, index) {

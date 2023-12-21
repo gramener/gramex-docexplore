@@ -76,8 +76,8 @@
   <script type="module">
     window.data = await fetch("data.json").then((r) => r.json());
     window.charsPerPixel = 2;
+    import("../story.js");
   </script>
-  <script src="../story.js" type="module"></script>
 </body>
 
 </html>
