@@ -12,15 +12,16 @@ Here is an example that explores the abstracts of all LLM papers on arxiv.org:
 
 Here is a list of examples to explore:
 
-- [GPAI Abstracts](gpai/index.html ":ignore :target=_blank")
-- [LLM Papers](llmpapers/index.html ":ignore :target=_blank")
-- [The Art of War](artofwar/index.html ":ignore :target=_blank")
+- [GPAI Abstracts](gpai/index.html ":ignore")
+- [LLM Papers](llmpapers/index.html ":ignore")
+- [The Art of War](artofwar/index.html ":ignore")
+- [Publications](publications/index.html ":ignore")
 
-## Create the data
+## Data format
 
-Create the data as a JSON file that lists the topics, documents, and matches between topics and documents.
+Create a JSON file that lists the topics, documents, and matches between topics and documents.
 
-[Here is an example](llmpapers/data.json):
+[Here is an example](llmpapers/docexplore.json ":ignore"):
 
 ```json
 {
@@ -53,8 +54,38 @@ Create the data as a JSON file that lists the topics, documents, and matches bet
   - `topic` (number): index of the topic in `topics`
   - `similarity` (number): similarity between the document and topic
 
-An example of how to create such a dataset using ChatGPT is provided in
-[llmpapers/extract.ipynb](https://code.gramener.com/cto/gramex-docexplore/-/blob/main/llmpapers/extract.ipynb).
+## Generate data
+
+To generate this structure, create a spreadsheet (or [download this sample](docexplore.xlsx ":ignore")) with:
+
+- a `docs` sheet that has `chapter`, `section`, `para` columns
+- a `topics` sheet that has `topic`, `subtopic` columns
+
+The `docs` sheet should look like this:
+
+| chapter        | section      | para                                       |
+| -------------- | ------------ | ------------------------------------------ |
+| The Art of War | Laying Plans | 1. Sun Tzu said: The art of war is of ...  |
+| The Art of War | Laying Plans | 2. It is a matter of life and death, a ... |
+| The Art of War | Laying Plans | 3. The art of war, then, is governed ...   |
+| The Art of War | Laying Plans | 4. These are: (1) The Moral Law; ...       |
+
+The `topics` sheet should look like this:
+
+| topic              | subtopic               |
+| ------------------ | ---------------------- |
+| Warfare Strategies | Strategic Calculations |
+| Warfare Strategies | Effortless Conquest    |
+| Military Tactics   | Espionage Tactics      |
+| Military Tactics   | Stealth and Speed      |
+
+Avoid empty cells in the middle of these sheets.
+
+Then run [`docexplore.py`](docexplore.py ":ignore") the same directory where `docexplore.xlsx` is located. It will create a `docexplore.json`
+
+An example of **how to automatically identify topics using ChatGPT** is provided in
+[llmpapers/extract.ipynb](https://code.gramener.com/cto/gramex-docexplore/-/blob/main/llmpapers/extract.ipynb) and
+[artofwar/extract.ipynb](https://code.gramener.com/cto/gramex-docexplore/-/blob/main/artofwar/extract.ipynb).
 
 ## Build the front-end
 
@@ -74,7 +105,7 @@ In `index.html`, you will probably want to change the following (apart from the 
 
 ```js
 // Point to your data file
-window.data = await fetch("data.json").then((r) => r.json());
+window.data = await fetch("docexplore.json").then((r) => r.json());
 // Number of characters (letters) per pixel. Increase for smaller documap
 window.charsPerPixel = 20;
 ```

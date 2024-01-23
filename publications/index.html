@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Art of War</title>
+  <title>Publications</title>
   <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet">
   <link href="../node_modules/@gramex/insighttree/dist/insighttree.css" rel="stylesheet" />
@@ -15,7 +15,7 @@
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href=".">The Art of War</a>
+      <a class="navbar-brand" href=".">Publications</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -36,9 +36,9 @@
   </nav>
 
   <div class="container">
-    <h1 class="display-1 my-5 text-center">The Art of War</h1>
+    <h1 class="display-1 my-5 text-center">Research Publications</h1>
     <div class="col-12 col-sm-9 col-md-6 col-lg-4 mx-auto">
-      <p>In this data story, we explore the <a href="https://classics.mit.edu/Tzu/artwar.html">Sun Tzu's The Art of War</a>.</p>
+      <p>In this data story, we explore the topics present in research papers.</p>
       <p>We used ChatGPT to <a href="https://code.gramener.com/cto/gramex-docexplore/-/blob/main/artofwar/extract.ipynb">cluster each line and identify topics and sub-topics automatically</a>.</p>
       <p>This visual explores which topic was mentioned where in the document.</p>
     </div>
@@ -76,8 +76,8 @@
   <script type="module">
     window.data = await fetch("docexplore.json").then((r) => r.json());
     window.charsPerPixel = 2;
-    import("../story.js");
   </script>
+  <script src="../story.js" type="module"></script>
 </body>
 
 </html>
