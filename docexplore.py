@@ -1,4 +1,12 @@
-# This assumes you have pip installed pandas (0.1), langchain (0.1) and langchain-openai (0.0)
+"""
+This script generates docexplore.json data from an Excel file.
+It uses OpenAI embeddings to find similarity between documents and topics.
+
+Requirements:
+- pandas (1.x)
+- langchain (0.1)
+- langchain-openai (0.0)
+"""
 
 import argparse
 import json
@@ -16,6 +24,14 @@ cached_embeddings = CacheBackedEmbeddings.from_bytes_store(base, file_store, nam
 
 
 def main():
+    """
+    Generate docexplore JSON from Excel.
+
+    Command Line Arguments:
+    - path: Path to the Excel file (default: 'docexplore.xlsx')
+    - cutoff: Minimum similarity cutoff (default: 0.75)
+    - output: Output file name (default: 'docexplore.json')
+    """
     # Parse command line options
     parser = argparse.ArgumentParser(
         description='Generate docexplore data from Excel',

@@ -3,7 +3,6 @@
 *.zip
 
 # Ignore generated files
-docexplore.json
 node_modules/
 
 # Ignore tool configuration files
