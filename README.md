@@ -12,14 +12,18 @@ Here is an example that explores the abstracts of all LLM papers on arxiv.org:
 
 Here is a list of examples to explore:
 
-- [GPAI Abstracts](gpai/index.html ":ignore")
-- [LLM Papers](llmpapers/index.html ":ignore")
-- [The Art of War](artofwar/index.html ":ignore")
-- [Publications](publications/index.html ":ignore")
+- [GPAI Abstracts](gpai/index.html ":ignore :target=_blank")
+- [LLM Papers](llmpapers/index.html ":ignore :target=_blank")
+- [The Art of War](artofwar/index.html ":ignore :target=_blank")
+- [Publications](publications/index.html ":ignore :target=_blank")
+- [Journal Abstracts](journal-abstracts/index.html ":ignore :target=_blank")
 
 ## Data format
 
-Create a JSON file that lists the topics, documents, and matches between topics and documents.
+!> Note: Use [this Google Colab notebook](https://colab.research.google.com/drive/19uYpWrvc1FIAYo2FVKwsLgFGntmYnd_y?usp=sharing)
+to automatically create topics from documents and generate a data file in the required format.
+
+Create the data as a JSON file that lists the topics, documents, and matches between topics and documents.
 
 [Here is an example](llmpapers/docexplore.json ":ignore"):
 
