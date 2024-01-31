@@ -87,7 +87,7 @@ function drawStory() {
       )}
       <div class="step p-4" data-panel-target="text" data-filter="{}">
         <h2>Explore the document</h2>
-        <p>Each of the ${chapters.size} papers are shown as blue circles
+        <p>Each of the ${chapters.size} chapters are shown as blue circles
           <svg width="1rem" height="1rem"><circle cx="50%" cy="50%" r="50%" fill="var(--bs-primary)"></svg>
         </p>
         <ol>
