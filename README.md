@@ -17,6 +17,7 @@ Here is a list of examples to explore:
 - [The Art of War](artofwar/index.html ":ignore :target=_blank")
 - [Publications](publications/index.html ":ignore :target=_blank")
 - [Journal Abstracts](journal-abstracts/index.html ":ignore :target=_blank")
+- [India Budget 2024](india-budget-2024/index.html ":ignore :target=_blank")
 
 ## Data format
 
