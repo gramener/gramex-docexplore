@@ -94,13 +94,7 @@ An example of **how to automatically identify topics using ChatGPT** is provided
 
 ## Build the front-end
 
-In your project, install dependencies:
-
-```shell
-npm install @gramex/documap@2 @gramex/insighttree@3 @gramex/network@2 @gramex/ui@0.3 bootstrap@5 bootstrap-icons@1 d3@7 lit-html@2 scrollama@3
-```
-
-Copy the required files:
+Copy these files to your project:
 
 - [story.js](https://code.gramener.com/cto/gramex-docexplore/-/blob/main/story.js)
 - [story.css](https://code.gramener.com/cto/gramex-docexplore/-/blob/main/story.css)
@@ -124,6 +118,7 @@ Open `index.html` in a browser to view the result.
 
 ## Release notes
 
+- 1.0.1: 18 Aug 2024. Reduce dependencies via CDN
 - 1.0.0: 20 Dec 2023. Initial release
 
 ## Authors

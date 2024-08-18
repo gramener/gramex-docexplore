@@ -1,12 +1,18 @@
 /* globals scrollama, bootstrap, data, charsPerPixel */
 
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
-import { html, render } from "./node_modules/lit-html/lit-html.js";
-import { repeat } from "./node_modules/lit-html/directives/repeat.js";
-import { num, pc1 } from "./node_modules/@gramex/ui/dist/format.js";
-import { insightTree, LEVEL, RANK, GROUP, PARENT } from "./node_modules/@gramex/insighttree/dist/insighttree.js";
-import { documap } from "./node_modules/@gramex/documap/dist/documap.js";
-import { network } from "./node_modules/@gramex/network/dist/network.js";
+import { html, render } from "https://cdn.jsdelivr.net/npm/lit-html@3/+esm";
+import { repeat } from "https://cdn.jsdelivr.net/npm/lit-html@3/directives/repeat.js";
+import { num, pc1 } from "https://cdn.jsdelivr.net/npm/@gramex/ui@0.3/dist/format.js";
+import {
+  insightTree,
+  LEVEL,
+  RANK,
+  GROUP,
+  PARENT,
+} from "https://cdn.jsdelivr.net/npm/@gramex/insighttree@3/dist/insighttree.js";
+import { documap } from "https://cdn.jsdelivr.net/npm/@gramex/documap@2/dist/documap.js";
+import { network } from "https://cdn.jsdelivr.net/npm/@gramex/network@2/dist/network.js";
 
 data.topics.forEach((topic, i) => (topic.index = i));
 data.docs.forEach((doc, i) => (doc.index = i));
