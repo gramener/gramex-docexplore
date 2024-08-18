@@ -1,3 +1,2823 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b112a8362c7f72b911032a0e28aecb7157711d957f5159b75c6bc3c7bcbebc13
-size 57142
+{
+  "docs": [
+    {
+      "chapter": "Document 1",
+      "section": "Introduction",
+      "para": "Despite rapid advancements in cancer screening and therapies, many cancer patients still succumb to the disease"
+    },
+    {
+      "chapter": "Document 1",
+      "section": "Introduction",
+      "para": "The molecular characteristics of tumors are commonly assessed using surgical specimens or biopsy samples."
+    },
+    {
+      "chapter": "Document 1",
+      "section": "Introduction",
+      "para": "However, biopsies only sample a portion of the tumor and might not fully represent its heterogeneity, providing incomplete information about the genetic variability of a patient\u2019s cancer"
+    },
+    {
+      "chapter": "Document 1",
+      "section": "Introduction",
+      "para": "Additionally, it is impractical for patients to undergo multiple biopsies of primary and metastatic lesions as the tumor progresses."
+    },
+    {
+      "chapter": "Document 1",
+      "section": "Introduction",
+      "para": "During the last years, to answer the need of a more accessible approach for tumor genetic analysis, liquid biopsy has emerged as an innovative, minimally-invasive and efficient opportunity of detecting and monitoring cancer in several body fluids instead of tumor tissue"
+    },
+    {
+      "chapter": "Document 1",
+      "section": "Introduction",
+      "para": "Furthermore, thanks to this approach, we are able to take more blood samples over time, informing about the type of molecular changes going on in a tumor."
+    },
+    {
+      "chapter": "Document 1",
+      "section": "Introduction",
+      "para": "This Research Topic aimed to update the currently available information concerning liquid biopsy, the key features and their applications in oncology highlighting the technological challenges and the hurdles we need to overcome to finally see the next era of cancer care."
+    },
+    {
+      "chapter": "Document 1",
+      "section": "innovative features of liquid biopsy",
+      "para": "The reviews and original articles published in the present Research Topic updated about the key and most innovative features of liquid biopsy and their applications in oncology."
+    },
+    {
+      "chapter": "Document 1",
+      "section": "innovative features of liquid biopsy",
+      "para": "Similarly, Palmieri et al. assessed the diagnostic performance of cell free DNA analysis for the detection of KRAS mutations in nonsmall cell lung cancer, compared to tissues, through a meta-analysis and systematic review"
+    },
+    {
+      "chapter": "Document 1",
+      "section": "innovative features of liquid biopsy",
+      "para": "The analysis of 40 studies including more than 2,800 NSCLC patients revealed that the detection of KRAS mutation in cfDNA has an adequate diagnostic accuracy and might be a valid alternative for molecular analysis when tumor biopsy or cytological specimens are not available."
+    },
+    {
+      "chapter": "Document 1",
+      "section": "innovative features of liquid biopsy",
+      "para": "cytological specimens are not available. Di Sario et al. highlighted the importance of an integrated multiomic, multi-analyte approach of liquid biopsy in the research of novel prognostic and predictive biomarkers for cancer as well as in the monitoring of the course of the disease"
+    },
+    {
+      "chapter": "Document 1",
+      "section": "innovative features of liquid biopsy",
+      "para": "Finally, Zhao et al. focused their attention on ctDNA analysis for prognosis prediction in Chinese newly diagnosed follicular lymphoma patients with interesting results."
+    },
+    {
+      "chapter": "Document 1",
+      "section": "innovative features of liquid biopsy",
+      "para": "The most commonly mutated genes were CREBBP, KMT2D, STAT6, CARD11, PCLO, EP300, BCL2, and TNFAIP3. Patients with detectable ctDNA mutation tended to present with advanced stages."
+    },
+    {
+      "chapter": "Document 1",
+      "section": "innovative features of liquid biopsy",
+      "para": "In particular, Progression-Free Survival resulted shorter in patients with KMT2D, EP300 and STAT6 mutations"
+    },
+    {
+      "chapter": "Document 1",
+      "section": "innovative features of liquid biopsy",
+      "para": "Beyond nucleic acids, the presence of Circulating Tumor Cells (CTCs) has been acknowledged as an independent prognostic marker in various solid tumors, including breast, colon, and prostate cancer."
+    },
+    {
+      "chapter": "Document 1",
+      "section": "innovative features of liquid biopsy",
+      "para": "The prognostic value was demonstrated 20 years ago by Cristofanilli et al. (2004) and Gaforio et al. (2003) in breast cancer patients (Gaforio et al., 2003; Cristofanilli et al., 2004)."
+    },
+    {
+      "chapter": "Document 1",
+      "section": "innovative features of liquid biopsy",
+      "para": "Recent approaches have aimed to comprehend the biology of these CTCs. Consequently, the assessment of circulating tumor cells (CTCs) allows for repeated sampling to identify the genomic instability of the tumor. Identifying EGFR and KRAS mutations is crucial in guiding the treatment of non-small cell lung cancer (NSCLC) patients undergoing EGFR tyrosine kinase inhibitors and colorectal cancer patients receiving anti-EGFR therapy, respectively"
+    },
+    {
+      "chapter": "Document 1",
+      "section": "innovative features of liquid biopsy",
+      "para": "The comparison of mutations between CTCs and corresponding primary or metastatic tumor tissue has generated significant interest."
+    },
+    {
+      "chapter": "Document 1",
+      "section": "innovative features of liquid biopsy",
+      "para": "Extracellular Vesicles (EVs) circulating tumor-derived endothelial cells (CTECs), and tumor-educated blood platelets (TEPs), considered as carriers of molecular information shed by tumors, have gained attention due to their potential in providing valuable genetic and proteomic data for cancer diagnostics and monitoring"
+    },
+    {
+      "chapter": "Document 1",
+      "section": "innovative features of liquid biopsy",
+      "para": "Including examples of these different LBs, widely present in plasma, urine, ascites, and other body fluids, broadens our understanding of liquid biopsy technologies and their applications in diverse cancer types."
+    },
+    {
+      "chapter": "Document 1",
+      "section": "conclusion",
+      "para": "In conclusion, this Research Topic highlights the importance of liquid biopsy approach in revolutionizing cancer precision medicine."
+    },
+    {
+      "chapter": "Document 1",
+      "section": "conclusion",
+      "para": "The key findings discussed herein demonstrated the increasing significance of the multi-omics and multi-markers analysis for the identification of new biomarkers, which may prove useful for diagnosis, prognosis and management of cancer patients."
+    }
+  ],
+  "topics": [
+    {
+      "topic": "Diseases",
+      "subtopic": "non small cell lung cancer"
+    },
+    {
+      "topic": "Diseases",
+      "subtopic": "breast cancer"
+    },
+    {
+      "topic": "Diseases",
+      "subtopic": "follicular lymphoma"
+    },
+    {
+      "topic": "Diseases",
+      "subtopic": "progression free survival"
+    },
+    {
+      "topic": "Diseases",
+      "subtopic": "solid tumor"
+    },
+    {
+      "topic": "Diseases",
+      "subtopic": "colon cancer"
+    },
+    {
+      "topic": "Diseases",
+      "subtopic": "prostate cancer"
+    },
+    {
+      "topic": "Biological marker",
+      "subtopic": "stat 6 protein"
+    },
+    {
+      "topic": "Biological marker",
+      "subtopic": "protein bcl2"
+    },
+    {
+      "topic": "Biological marker",
+      "subtopic": "microRNA 21"
+    },
+    {
+      "topic": "Biological marker",
+      "subtopic": "microRNA 155"
+    },
+    {
+      "topic": "Biological marker",
+      "subtopic": "K ras protein"
+    },
+    {
+      "topic": "Medical procedure",
+      "subtopic": "cytology"
+    },
+    {
+      "topic": "Medical procedure",
+      "subtopic": "survival rate"
+    },
+    {
+      "topic": "Medical procedure",
+      "subtopic": "oncology"
+    },
+    {
+      "topic": "Medical procedure",
+      "subtopic": "diagnostic test"
+    },
+    {
+      "topic": "Medical procedure",
+      "subtopic": "multiomics"
+    },
+    {
+      "topic": "Medical procedure",
+      "subtopic": "cancer prognosis"
+    },
+    {
+      "topic": "Medical procedure",
+      "subtopic": "cancer diagnosis"
+    },
+    {
+      "topic": "Medical procedure",
+      "subtopic": "tumor biopsy"
+    },
+    {
+      "topic": "Medical procedure",
+      "subtopic": "disease surveillance"
+    },
+    {
+      "topic": "Medical procedure",
+      "subtopic": "liquid biopsy"
+    },
+    {
+      "topic": "Cell",
+      "subtopic": "circulating tumor cell"
+    },
+    {
+      "topic": "Genetic parameters",
+      "subtopic": "genetic variability"
+    },
+    {
+      "topic": "Biological funcions",
+      "subtopic": "gene mutation"
+    }
+  ],
+  "matches": [
+    {
+      "doc": 0,
+      "topic": 0,
+      "similarity": 0.829914052891644
+    },
+    {
+      "doc": 0,
+      "topic": 1,
+      "similarity": 0.8477596100619518
+    },
+    {
+      "doc": 0,
+      "topic": 2,
+      "similarity": 0.783682781918327
+    },
+    {
+      "doc": 0,
+      "topic": 3,
+      "similarity": 0.8222136636013943
+    },
+    {
+      "doc": 0,
+      "topic": 4,
+      "similarity": 0.804710025794505
+    },
+    {
+      "doc": 0,
+      "topic": 5,
+      "similarity": 0.8426998466012273
+    },
+    {
+      "doc": 0,
+      "topic": 6,
+      "similarity": 0.8389207891525753
+    },
+    {
+      "doc": 0,
+      "topic": 8,
+      "similarity": 0.7515775297652825
+    },
+    {
+      "doc": 0,
+      "topic": 10,
+      "similarity": 0.7512614510698562
+    },
+    {
+      "doc": 0,
+      "topic": 11,
+      "similarity": 0.7502292423393451
+    },
+    {
+      "doc": 0,
+      "topic": 12,
+      "similarity": 0.7583765347375049
+    },
+    {
+      "doc": 0,
+      "topic": 13,
+      "similarity": 0.8219394810042773
+    },
+    {
+      "doc": 0,
+      "topic": 14,
+      "similarity": 0.8225386634496633
+    },
+    {
+      "doc": 0,
+      "topic": 15,
+      "similarity": 0.7629078806651894
+    },
+    {
+      "doc": 0,
+      "topic": 16,
+      "similarity": 0.7640255429354466
+    },
+    {
+      "doc": 0,
+      "topic": 17,
+      "similarity": 0.8507106411451683
+    },
+    {
+      "doc": 0,
+      "topic": 18,
+      "similarity": 0.8316744895695569
+    },
+    {
+      "doc": 0,
+      "topic": 19,
+      "similarity": 0.7799078415552073
+    },
+    {
+      "doc": 0,
+      "topic": 20,
+      "similarity": 0.7984757654785555
+    },
+    {
+      "doc": 0,
+      "topic": 21,
+      "similarity": 0.7608345635999054
+    },
+    {
+      "doc": 0,
+      "topic": 22,
+      "similarity": 0.806435468098318
+    },
+    {
+      "doc": 0,
+      "topic": 24,
+      "similarity": 0.7510822377196613
+    },
+    {
+      "doc": 1,
+      "topic": 0,
+      "similarity": 0.7726252864715152
+    },
+    {
+      "doc": 1,
+      "topic": 1,
+      "similarity": 0.7895550015016672
+    },
+    {
+      "doc": 1,
+      "topic": 2,
+      "similarity": 0.7694946695027353
+    },
+    {
+      "doc": 1,
+      "topic": 3,
+      "similarity": 0.7606802221705328
+    },
+    {
+      "doc": 1,
+      "topic": 4,
+      "similarity": 0.8066486702794038
+    },
+    {
+      "doc": 1,
+      "topic": 5,
+      "similarity": 0.7766752380870039
+    },
+    {
+      "doc": 1,
+      "topic": 6,
+      "similarity": 0.7746198824022729
+    },
+    {
+      "doc": 1,
+      "topic": 7,
+      "similarity": 0.7646481075343334
+    },
+    {
+      "doc": 1,
+      "topic": 8,
+      "similarity": 0.7887530344377056
+    },
+    {
+      "doc": 1,
+      "topic": 9,
+      "similarity": 0.7668615995866532
+    },
+    {
+      "doc": 1,
+      "topic": 10,
+      "similarity": 0.7779912601052159
+    },
+    {
+      "doc": 1,
+      "topic": 11,
+      "similarity": 0.7779533204397884
+    },
+    {
+      "doc": 1,
+      "topic": 12,
+      "similarity": 0.8372376244526438
+    },
+    {
+      "doc": 1,
+      "topic": 13,
+      "similarity": 0.7728077915869566
+    },
+    {
+      "doc": 1,
+      "topic": 14,
+      "similarity": 0.8225752490680175
+    },
+    {
+      "doc": 1,
+      "topic": 15,
+      "similarity": 0.8157408425713664
+    },
+    {
+      "doc": 1,
+      "topic": 16,
+      "similarity": 0.7997047405717139
+    },
+    {
+      "doc": 1,
+      "topic": 17,
+      "similarity": 0.8147996614585731
+    },
+    {
+      "doc": 1,
+      "topic": 18,
+      "similarity": 0.8378302089733467
+    },
+    {
+      "doc": 1,
+      "topic": 19,
+      "similarity": 0.8882445720274701
+    },
+    {
+      "doc": 1,
+      "topic": 20,
+      "similarity": 0.7974308391052563
+    },
+    {
+      "doc": 1,
+      "topic": 21,
+      "similarity": 0.8314356681348922
+    },
+    {
+      "doc": 1,
+      "topic": 22,
+      "similarity": 0.8193425411559654
+    },
+    {
+      "doc": 1,
+      "topic": 23,
+      "similarity": 0.7622695528200305
+    },
+    {
+      "doc": 1,
+      "topic": 24,
+      "similarity": 0.7676694535797077
+    },
+    {
+      "doc": 2,
+      "topic": 0,
+      "similarity": 0.7791671798914751
+    },
+    {
+      "doc": 2,
+      "topic": 1,
+      "similarity": 0.7912402288942015
+    },
+    {
+      "doc": 2,
+      "topic": 2,
+      "similarity": 0.7670070667384666
+    },
+    {
+      "doc": 2,
+      "topic": 3,
+      "similarity": 0.7655338417284768
+    },
+    {
+      "doc": 2,
+      "topic": 4,
+      "similarity": 0.7835914804470682
+    },
+    {
+      "doc": 2,
+      "topic": 5,
+      "similarity": 0.7739667011765309
+    },
+    {
+      "doc": 2,
+      "topic": 6,
+      "similarity": 0.7790284276111221
+    },
+    {
+      "doc": 2,
+      "topic": 8,
+      "similarity": 0.7698677139992609
+    },
+    {
+      "doc": 2,
+      "topic": 9,
+      "similarity": 0.7647815684304087
+    },
+    {
+      "doc": 2,
+      "topic": 10,
+      "similarity": 0.7735468251501613
+    },
+    {
+      "doc": 2,
+      "topic": 11,
+      "similarity": 0.7635858485785769
+    },
+    {
+      "doc": 2,
+      "topic": 12,
+      "similarity": 0.7923839931820884
+    },
+    {
+      "doc": 2,
+      "topic": 13,
+      "similarity": 0.7628669899528836
+    },
+    {
+      "doc": 2,
+      "topic": 14,
+      "similarity": 0.7923381649846903
+    },
+    {
+      "doc": 2,
+      "topic": 15,
+      "similarity": 0.7830377300603872
+    },
+    {
+      "doc": 2,
+      "topic": 16,
+      "similarity": 0.7980544241490993
+    },
+    {
+      "doc": 2,
+      "topic": 17,
+      "similarity": 0.8024806973831736
+    },
+    {
+      "doc": 2,
+      "topic": 18,
+      "similarity": 0.8147510971512675
+    },
+    {
+      "doc": 2,
+      "topic": 19,
+      "similarity": 0.8531126946953321
+    },
+    {
+      "doc": 2,
+      "topic": 20,
+      "similarity": 0.7735641338188017
+    },
+    {
+      "doc": 2,
+      "topic": 21,
+      "similarity": 0.814799785771555
+    },
+    {
+      "doc": 2,
+      "topic": 22,
+      "similarity": 0.7959463787439158
+    },
+    {
+      "doc": 2,
+      "topic": 23,
+      "similarity": 0.778615546868968
+    },
+    {
+      "doc": 2,
+      "topic": 24,
+      "similarity": 0.7782351401080132
+    },
+    {
+      "doc": 3,
+      "topic": 0,
+      "similarity": 0.7880446859158208
+    },
+    {
+      "doc": 3,
+      "topic": 1,
+      "similarity": 0.8041842723483923
+    },
+    {
+      "doc": 3,
+      "topic": 2,
+      "similarity": 0.7787981866034155
+    },
+    {
+      "doc": 3,
+      "topic": 3,
+      "similarity": 0.8033049145806211
+    },
+    {
+      "doc": 3,
+      "topic": 4,
+      "similarity": 0.7970152012104641
+    },
+    {
+      "doc": 3,
+      "topic": 5,
+      "similarity": 0.7809646543027167
+    },
+    {
+      "doc": 3,
+      "topic": 6,
+      "similarity": 0.7903806497033798
+    },
+    {
+      "doc": 3,
+      "topic": 8,
+      "similarity": 0.7578926713191174
+    },
+    {
+      "doc": 3,
+      "topic": 10,
+      "similarity": 0.7531607701664667
+    },
+    {
+      "doc": 3,
+      "topic": 11,
+      "similarity": 0.7556084336363205
+    },
+    {
+      "doc": 3,
+      "topic": 12,
+      "similarity": 0.7892766388677821
+    },
+    {
+      "doc": 3,
+      "topic": 13,
+      "similarity": 0.7880876616315418
+    },
+    {
+      "doc": 3,
+      "topic": 14,
+      "similarity": 0.8150365211041823
+    },
+    {
+      "doc": 3,
+      "topic": 15,
+      "similarity": 0.7898351868309551
+    },
+    {
+      "doc": 3,
+      "topic": 16,
+      "similarity": 0.7924004225709365
+    },
+    {
+      "doc": 3,
+      "topic": 17,
+      "similarity": 0.8285397088086872
+    },
+    {
+      "doc": 3,
+      "topic": 18,
+      "similarity": 0.8259536983608258
+    },
+    {
+      "doc": 3,
+      "topic": 19,
+      "similarity": 0.8460758108840079
+    },
+    {
+      "doc": 3,
+      "topic": 20,
+      "similarity": 0.7930985675688628
+    },
+    {
+      "doc": 3,
+      "topic": 21,
+      "similarity": 0.8100756910676503
+    },
+    {
+      "doc": 3,
+      "topic": 22,
+      "similarity": 0.7760502298671241
+    },
+    {
+      "doc": 4,
+      "topic": 0,
+      "similarity": 0.7697417575003693
+    },
+    {
+      "doc": 4,
+      "topic": 1,
+      "similarity": 0.7849581589003267
+    },
+    {
+      "doc": 4,
+      "topic": 2,
+      "similarity": 0.7807613632662497
+    },
+    {
+      "doc": 4,
+      "topic": 3,
+      "similarity": 0.767175687972486
+    },
+    {
+      "doc": 4,
+      "topic": 4,
+      "similarity": 0.7861278987714033
+    },
+    {
+      "doc": 4,
+      "topic": 5,
+      "similarity": 0.7733548714124557
+    },
+    {
+      "doc": 4,
+      "topic": 6,
+      "similarity": 0.7751681613760535
+    },
+    {
+      "doc": 4,
+      "topic": 7,
+      "similarity": 0.7648306262650462
+    },
+    {
+      "doc": 4,
+      "topic": 8,
+      "similarity": 0.7994698142856903
+    },
+    {
+      "doc": 4,
+      "topic": 9,
+      "similarity": 0.7853786077520108
+    },
+    {
+      "doc": 4,
+      "topic": 10,
+      "similarity": 0.7927026864574684
+    },
+    {
+      "doc": 4,
+      "topic": 11,
+      "similarity": 0.7778007965114964
+    },
+    {
+      "doc": 4,
+      "topic": 12,
+      "similarity": 0.8064313354621622
+    },
+    {
+      "doc": 4,
+      "topic": 13,
+      "similarity": 0.7608568640231592
+    },
+    {
+      "doc": 4,
+      "topic": 14,
+      "similarity": 0.808306989305734
+    },
+    {
+      "doc": 4,
+      "topic": 15,
+      "similarity": 0.79447339711133
+    },
+    {
+      "doc": 4,
+      "topic": 16,
+      "similarity": 0.8021697308836229
+    },
+    {
+      "doc": 4,
+      "topic": 17,
+      "similarity": 0.7978522645652528
+    },
+    {
+      "doc": 4,
+      "topic": 18,
+      "similarity": 0.8154439101801135
+    },
+    {
+      "doc": 4,
+      "topic": 19,
+      "similarity": 0.8320158152284747
+    },
+    {
+      "doc": 4,
+      "topic": 20,
+      "similarity": 0.791894743638458
+    },
+    {
+      "doc": 4,
+      "topic": 21,
+      "similarity": 0.8969156108549552
+    },
+    {
+      "doc": 4,
+      "topic": 22,
+      "similarity": 0.8215584449069413
+    },
+    {
+      "doc": 4,
+      "topic": 24,
+      "similarity": 0.7732856850141161
+    },
+    {
+      "doc": 5,
+      "topic": 0,
+      "similarity": 0.7700235161670667
+    },
+    {
+      "doc": 5,
+      "topic": 1,
+      "similarity": 0.7771105008230689
+    },
+    {
+      "doc": 5,
+      "topic": 2,
+      "similarity": 0.7583711900259403
+    },
+    {
+      "doc": 5,
+      "topic": 3,
+      "similarity": 0.781956317370928
+    },
+    {
+      "doc": 5,
+      "topic": 4,
+      "similarity": 0.7674799479070568
+    },
+    {
+      "doc": 5,
+      "topic": 5,
+      "similarity": 0.7649054518575482
+    },
+    {
+      "doc": 5,
+      "topic": 6,
+      "similarity": 0.7706813078809687
+    },
+    {
+      "doc": 5,
+      "topic": 7,
+      "similarity": 0.7736560586023713
+    },
+    {
+      "doc": 5,
+      "topic": 8,
+      "similarity": 0.7896944209745566
+    },
+    {
+      "doc": 5,
+      "topic": 9,
+      "similarity": 0.7897492298290636
+    },
+    {
+      "doc": 5,
+      "topic": 10,
+      "similarity": 0.7970018743523472
+    },
+    {
+      "doc": 5,
+      "topic": 11,
+      "similarity": 0.7821899449450922
+    },
+    {
+      "doc": 5,
+      "topic": 12,
+      "similarity": 0.7948312794089868
+    },
+    {
+      "doc": 5,
+      "topic": 13,
+      "similarity": 0.7746735230367361
+    },
+    {
+      "doc": 5,
+      "topic": 14,
+      "similarity": 0.7986396857982406
+    },
+    {
+      "doc": 5,
+      "topic": 15,
+      "similarity": 0.7850077519851699
+    },
+    {
+      "doc": 5,
+      "topic": 16,
+      "similarity": 0.8151647102172973
+    },
+    {
+      "doc": 5,
+      "topic": 17,
+      "similarity": 0.7994180586330111
+    },
+    {
+      "doc": 5,
+      "topic": 18,
+      "similarity": 0.8049058859039252
+    },
+    {
+      "doc": 5,
+      "topic": 19,
+      "similarity": 0.8243674104756464
+    },
+    {
+      "doc": 5,
+      "topic": 20,
+      "similarity": 0.7946102479735002
+    },
+    {
+      "doc": 5,
+      "topic": 21,
+      "similarity": 0.8362106658783638
+    },
+    {
+      "doc": 5,
+      "topic": 22,
+      "similarity": 0.8237240203884174
+    },
+    {
+      "doc": 5,
+      "topic": 23,
+      "similarity": 0.7636753550259088
+    },
+    {
+      "doc": 5,
+      "topic": 24,
+      "similarity": 0.7758040959315147
+    },
+    {
+      "doc": 6,
+      "topic": 0,
+      "similarity": 0.7741069045955369
+    },
+    {
+      "doc": 6,
+      "topic": 1,
+      "similarity": 0.7761848365436179
+    },
+    {
+      "doc": 6,
+      "topic": 2,
+      "similarity": 0.7710824100155447
+    },
+    {
+      "doc": 6,
+      "topic": 3,
+      "similarity": 0.777282088198459
+    },
+    {
+      "doc": 6,
+      "topic": 4,
+      "similarity": 0.7727516266491898
+    },
+    {
+      "doc": 6,
+      "topic": 5,
+      "similarity": 0.7651805432564562
+    },
+    {
+      "doc": 6,
+      "topic": 6,
+      "similarity": 0.7661897453802289
+    },
+    {
+      "doc": 6,
+      "topic": 8,
+      "similarity": 0.7768291085809744
+    },
+    {
+      "doc": 6,
+      "topic": 9,
+      "similarity": 0.7648013392076246
+    },
+    {
+      "doc": 6,
+      "topic": 10,
+      "similarity": 0.7715637968638134
+    },
+    {
+      "doc": 6,
+      "topic": 11,
+      "similarity": 0.7567512467487593
+    },
+    {
+      "doc": 6,
+      "topic": 12,
+      "similarity": 0.7794645943251474
+    },
+    {
+      "doc": 6,
+      "topic": 13,
+      "similarity": 0.7625599928200995
+    },
+    {
+      "doc": 6,
+      "topic": 14,
+      "similarity": 0.8202779149575203
+    },
+    {
+      "doc": 6,
+      "topic": 15,
+      "similarity": 0.7668870586897859
+    },
+    {
+      "doc": 6,
+      "topic": 16,
+      "similarity": 0.7938785577523655
+    },
+    {
+      "doc": 6,
+      "topic": 17,
+      "similarity": 0.7983643309466326
+    },
+    {
+      "doc": 6,
+      "topic": 18,
+      "similarity": 0.7959939417070807
+    },
+    {
+      "doc": 6,
+      "topic": 19,
+      "similarity": 0.7983523083064241
+    },
+    {
+      "doc": 6,
+      "topic": 20,
+      "similarity": 0.7648682854146593
+    },
+    {
+      "doc": 6,
+      "topic": 21,
+      "similarity": 0.8584084566199659
+    },
+    {
+      "doc": 6,
+      "topic": 22,
+      "similarity": 0.8003017979371778
+    },
+    {
+      "doc": 7,
+      "topic": 0,
+      "similarity": 0.7675164667130552
+    },
+    {
+      "doc": 7,
+      "topic": 1,
+      "similarity": 0.7674615578076913
+    },
+    {
+      "doc": 7,
+      "topic": 2,
+      "similarity": 0.7665608359412752
+    },
+    {
+      "doc": 7,
+      "topic": 3,
+      "similarity": 0.770008827762595
+    },
+    {
+      "doc": 7,
+      "topic": 4,
+      "similarity": 0.766861353496816
+    },
+    {
+      "doc": 7,
+      "topic": 5,
+      "similarity": 0.7542105251366152
+    },
+    {
+      "doc": 7,
+      "topic": 6,
+      "similarity": 0.7586010320708467
+    },
+    {
+      "doc": 7,
+      "topic": 8,
+      "similarity": 0.7810890202647252
+    },
+    {
+      "doc": 7,
+      "topic": 9,
+      "similarity": 0.775321676642189
+    },
+    {
+      "doc": 7,
+      "topic": 10,
+      "similarity": 0.7788165536979947
+    },
+    {
+      "doc": 7,
+      "topic": 11,
+      "similarity": 0.7598489614519388
+    },
+    {
+      "doc": 7,
+      "topic": 12,
+      "similarity": 0.7703651450616626
+    },
+    {
+      "doc": 7,
+      "topic": 13,
+      "similarity": 0.7572272309014834
+    },
+    {
+      "doc": 7,
+      "topic": 14,
+      "similarity": 0.8206235351033749
+    },
+    {
+      "doc": 7,
+      "topic": 15,
+      "similarity": 0.7597760038186883
+    },
+    {
+      "doc": 7,
+      "topic": 16,
+      "similarity": 0.7916365756586401
+    },
+    {
+      "doc": 7,
+      "topic": 17,
+      "similarity": 0.787847932650725
+    },
+    {
+      "doc": 7,
+      "topic": 18,
+      "similarity": 0.7805841745541164
+    },
+    {
+      "doc": 7,
+      "topic": 19,
+      "similarity": 0.7930185655435171
+    },
+    {
+      "doc": 7,
+      "topic": 20,
+      "similarity": 0.7543203036933986
+    },
+    {
+      "doc": 7,
+      "topic": 21,
+      "similarity": 0.8552977165616094
+    },
+    {
+      "doc": 7,
+      "topic": 22,
+      "similarity": 0.7979174318621436
+    },
+    {
+      "doc": 8,
+      "topic": 0,
+      "similarity": 0.8199999326813071
+    },
+    {
+      "doc": 8,
+      "topic": 1,
+      "similarity": 0.7861487746255538
+    },
+    {
+      "doc": 8,
+      "topic": 2,
+      "similarity": 0.7584896365313584
+    },
+    {
+      "doc": 8,
+      "topic": 3,
+      "similarity": 0.794980526730941
+    },
+    {
+      "doc": 8,
+      "topic": 4,
+      "similarity": 0.7749801157217605
+    },
+    {
+      "doc": 8,
+      "topic": 5,
+      "similarity": 0.7877002383216776
+    },
+    {
+      "doc": 8,
+      "topic": 6,
+      "similarity": 0.7831390323381172
+    },
+    {
+      "doc": 8,
+      "topic": 7,
+      "similarity": 0.771929394384979
+    },
+    {
+      "doc": 8,
+      "topic": 8,
+      "similarity": 0.7937572594613058
+    },
+    {
+      "doc": 8,
+      "topic": 9,
+      "similarity": 0.7922711949232414
+    },
+    {
+      "doc": 8,
+      "topic": 10,
+      "similarity": 0.7908837584208815
+    },
+    {
+      "doc": 8,
+      "topic": 11,
+      "similarity": 0.8298849516267688
+    },
+    {
+      "doc": 8,
+      "topic": 12,
+      "similarity": 0.8003976441254994
+    },
+    {
+      "doc": 8,
+      "topic": 13,
+      "similarity": 0.7638604231087334
+    },
+    {
+      "doc": 8,
+      "topic": 14,
+      "similarity": 0.7877053489921064
+    },
+    {
+      "doc": 8,
+      "topic": 15,
+      "similarity": 0.8003143102073014
+    },
+    {
+      "doc": 8,
+      "topic": 16,
+      "similarity": 0.79919483901982
+    },
+    {
+      "doc": 8,
+      "topic": 17,
+      "similarity": 0.8115335700687665
+    },
+    {
+      "doc": 8,
+      "topic": 18,
+      "similarity": 0.8238780348397375
+    },
+    {
+      "doc": 8,
+      "topic": 19,
+      "similarity": 0.8103534234545591
+    },
+    {
+      "doc": 8,
+      "topic": 20,
+      "similarity": 0.789524008303096
+    },
+    {
+      "doc": 8,
+      "topic": 21,
+      "similarity": 0.819884829298513
+    },
+    {
+      "doc": 8,
+      "topic": 22,
+      "similarity": 0.8220985493049917
+    },
+    {
+      "doc": 8,
+      "topic": 23,
+      "similarity": 0.7596074027128066
+    },
+    {
+      "doc": 8,
+      "topic": 24,
+      "similarity": 0.7820812921964364
+    },
+    {
+      "doc": 9,
+      "topic": 0,
+      "similarity": 0.8146043790604749
+    },
+    {
+      "doc": 9,
+      "topic": 1,
+      "similarity": 0.7909154733279179
+    },
+    {
+      "doc": 9,
+      "topic": 2,
+      "similarity": 0.7597254471014835
+    },
+    {
+      "doc": 9,
+      "topic": 3,
+      "similarity": 0.7786498831520354
+    },
+    {
+      "doc": 9,
+      "topic": 4,
+      "similarity": 0.7815190389874834
+    },
+    {
+      "doc": 9,
+      "topic": 5,
+      "similarity": 0.7891803832538848
+    },
+    {
+      "doc": 9,
+      "topic": 6,
+      "similarity": 0.7812401139606364
+    },
+    {
+      "doc": 9,
+      "topic": 7,
+      "similarity": 0.7600542869655007
+    },
+    {
+      "doc": 9,
+      "topic": 8,
+      "similarity": 0.7945112041484462
+    },
+    {
+      "doc": 9,
+      "topic": 9,
+      "similarity": 0.7799027104878541
+    },
+    {
+      "doc": 9,
+      "topic": 10,
+      "similarity": 0.7802780306322694
+    },
+    {
+      "doc": 9,
+      "topic": 11,
+      "similarity": 0.840873175523119
+    },
+    {
+      "doc": 9,
+      "topic": 12,
+      "similarity": 0.79373240982914
+    },
+    {
+      "doc": 9,
+      "topic": 13,
+      "similarity": 0.7694796696264279
+    },
+    {
+      "doc": 9,
+      "topic": 14,
+      "similarity": 0.7892070771980927
+    },
+    {
+      "doc": 9,
+      "topic": 15,
+      "similarity": 0.7855610890605313
+    },
+    {
+      "doc": 9,
+      "topic": 16,
+      "similarity": 0.7821583110013284
+    },
+    {
+      "doc": 9,
+      "topic": 17,
+      "similarity": 0.8163709639339529
+    },
+    {
+      "doc": 9,
+      "topic": 18,
+      "similarity": 0.8278823381836092
+    },
+    {
+      "doc": 9,
+      "topic": 19,
+      "similarity": 0.8156908027093173
+    },
+    {
+      "doc": 9,
+      "topic": 20,
+      "similarity": 0.7833548715213408
+    },
+    {
+      "doc": 9,
+      "topic": 21,
+      "similarity": 0.8190859267577129
+    },
+    {
+      "doc": 9,
+      "topic": 22,
+      "similarity": 0.8166123888971013
+    },
+    {
+      "doc": 9,
+      "topic": 24,
+      "similarity": 0.7736020358213613
+    },
+    {
+      "doc": 10,
+      "topic": 0,
+      "similarity": 0.7860342271155222
+    },
+    {
+      "doc": 10,
+      "topic": 1,
+      "similarity": 0.7705608602802417
+    },
+    {
+      "doc": 10,
+      "topic": 2,
+      "similarity": 0.7701263779415333
+    },
+    {
+      "doc": 10,
+      "topic": 3,
+      "similarity": 0.7771334321896706
+    },
+    {
+      "doc": 10,
+      "topic": 4,
+      "similarity": 0.7824100244757325
+    },
+    {
+      "doc": 10,
+      "topic": 5,
+      "similarity": 0.7681188645791859
+    },
+    {
+      "doc": 10,
+      "topic": 6,
+      "similarity": 0.7680076710332984
+    },
+    {
+      "doc": 10,
+      "topic": 7,
+      "similarity": 0.7814207624374149
+    },
+    {
+      "doc": 10,
+      "topic": 8,
+      "similarity": 0.8011240118832509
+    },
+    {
+      "doc": 10,
+      "topic": 9,
+      "similarity": 0.7922075409220041
+    },
+    {
+      "doc": 10,
+      "topic": 10,
+      "similarity": 0.7983548508149639
+    },
+    {
+      "doc": 10,
+      "topic": 11,
+      "similarity": 0.7741276469754755
+    },
+    {
+      "doc": 10,
+      "topic": 12,
+      "similarity": 0.8163787722101996
+    },
+    {
+      "doc": 10,
+      "topic": 13,
+      "similarity": 0.7669780800318323
+    },
+    {
+      "doc": 10,
+      "topic": 14,
+      "similarity": 0.80741201510352
+    },
+    {
+      "doc": 10,
+      "topic": 15,
+      "similarity": 0.7972436679684964
+    },
+    {
+      "doc": 10,
+      "topic": 16,
+      "similarity": 0.8506085752227661
+    },
+    {
+      "doc": 10,
+      "topic": 17,
+      "similarity": 0.8099886953567961
+    },
+    {
+      "doc": 10,
+      "topic": 18,
+      "similarity": 0.8069241044595044
+    },
+    {
+      "doc": 10,
+      "topic": 19,
+      "similarity": 0.8125471317724076
+    },
+    {
+      "doc": 10,
+      "topic": 20,
+      "similarity": 0.7893651395818628
+    },
+    {
+      "doc": 10,
+      "topic": 21,
+      "similarity": 0.8694063618333825
+    },
+    {
+      "doc": 10,
+      "topic": 22,
+      "similarity": 0.8100187755455609
+    },
+    {
+      "doc": 10,
+      "topic": 23,
+      "similarity": 0.7503478986940673
+    },
+    {
+      "doc": 11,
+      "topic": 0,
+      "similarity": 0.7800735423098315
+    },
+    {
+      "doc": 11,
+      "topic": 1,
+      "similarity": 0.7808178840971447
+    },
+    {
+      "doc": 11,
+      "topic": 2,
+      "similarity": 0.8370858606905409
+    },
+    {
+      "doc": 11,
+      "topic": 3,
+      "similarity": 0.8035423173694545
+    },
+    {
+      "doc": 11,
+      "topic": 4,
+      "similarity": 0.7647441433679357
+    },
+    {
+      "doc": 11,
+      "topic": 5,
+      "similarity": 0.7697264219133968
+    },
+    {
+      "doc": 11,
+      "topic": 6,
+      "similarity": 0.7771903295159879
+    },
+    {
+      "doc": 11,
+      "topic": 7,
+      "similarity": 0.771318057407646
+    },
+    {
+      "doc": 11,
+      "topic": 8,
+      "similarity": 0.8121070512084136
+    },
+    {
+      "doc": 11,
+      "topic": 9,
+      "similarity": 0.7896355450079218
+    },
+    {
+      "doc": 11,
+      "topic": 10,
+      "similarity": 0.794650635945884
+    },
+    {
+      "doc": 11,
+      "topic": 11,
+      "similarity": 0.7699770489876597
+    },
+    {
+      "doc": 11,
+      "topic": 12,
+      "similarity": 0.7894914726805038
+    },
+    {
+      "doc": 11,
+      "topic": 13,
+      "similarity": 0.7770368369277334
+    },
+    {
+      "doc": 11,
+      "topic": 14,
+      "similarity": 0.7948765774322788
+    },
+    {
+      "doc": 11,
+      "topic": 15,
+      "similarity": 0.7903368220468889
+    },
+    {
+      "doc": 11,
+      "topic": 16,
+      "similarity": 0.7920116392835106
+    },
+    {
+      "doc": 11,
+      "topic": 17,
+      "similarity": 0.8251797162878397
+    },
+    {
+      "doc": 11,
+      "topic": 18,
+      "similarity": 0.8091962771148336
+    },
+    {
+      "doc": 11,
+      "topic": 19,
+      "similarity": 0.795212947997087
+    },
+    {
+      "doc": 11,
+      "topic": 20,
+      "similarity": 0.7756557959808424
+    },
+    {
+      "doc": 11,
+      "topic": 21,
+      "similarity": 0.8200160407062684
+    },
+    {
+      "doc": 11,
+      "topic": 22,
+      "similarity": 0.8088679683774536
+    },
+    {
+      "doc": 12,
+      "topic": 0,
+      "similarity": 0.7911221875906593
+    },
+    {
+      "doc": 12,
+      "topic": 1,
+      "similarity": 0.792713324612889
+    },
+    {
+      "doc": 12,
+      "topic": 2,
+      "similarity": 0.7682894734650498
+    },
+    {
+      "doc": 12,
+      "topic": 3,
+      "similarity": 0.7855968004639922
+    },
+    {
+      "doc": 12,
+      "topic": 4,
+      "similarity": 0.7737811668486536
+    },
+    {
+      "doc": 12,
+      "topic": 5,
+      "similarity": 0.7884930872928406
+    },
+    {
+      "doc": 12,
+      "topic": 6,
+      "similarity": 0.7862342927017488
+    },
+    {
+      "doc": 12,
+      "topic": 7,
+      "similarity": 0.7958786745854167
+    },
+    {
+      "doc": 12,
+      "topic": 8,
+      "similarity": 0.8138259842525869
+    },
+    {
+      "doc": 12,
+      "topic": 9,
+      "similarity": 0.8109276064201714
+    },
+    {
+      "doc": 12,
+      "topic": 10,
+      "similarity": 0.8076110955206985
+    },
+    {
+      "doc": 12,
+      "topic": 11,
+      "similarity": 0.8067630735682767
+    },
+    {
+      "doc": 12,
+      "topic": 12,
+      "similarity": 0.7556814299656045
+    },
+    {
+      "doc": 12,
+      "topic": 13,
+      "similarity": 0.759481605235061
+    },
+    {
+      "doc": 12,
+      "topic": 14,
+      "similarity": 0.7701903692038101
+    },
+    {
+      "doc": 12,
+      "topic": 15,
+      "similarity": 0.7572908891357575
+    },
+    {
+      "doc": 12,
+      "topic": 16,
+      "similarity": 0.7818040963194557
+    },
+    {
+      "doc": 12,
+      "topic": 17,
+      "similarity": 0.7843431845439619
+    },
+    {
+      "doc": 12,
+      "topic": 18,
+      "similarity": 0.7828925412679637
+    },
+    {
+      "doc": 12,
+      "topic": 19,
+      "similarity": 0.7743228278864643
+    },
+    {
+      "doc": 12,
+      "topic": 20,
+      "similarity": 0.7514068369528915
+    },
+    {
+      "doc": 12,
+      "topic": 21,
+      "similarity": 0.7897881600081521
+    },
+    {
+      "doc": 12,
+      "topic": 22,
+      "similarity": 0.8105776546194293
+    },
+    {
+      "doc": 12,
+      "topic": 23,
+      "similarity": 0.767022673136879
+    },
+    {
+      "doc": 12,
+      "topic": 24,
+      "similarity": 0.8067776514448337
+    },
+    {
+      "doc": 13,
+      "topic": 0,
+      "similarity": 0.793870743796264
+    },
+    {
+      "doc": 13,
+      "topic": 1,
+      "similarity": 0.787407603072964
+    },
+    {
+      "doc": 13,
+      "topic": 2,
+      "similarity": 0.7696235885933427
+    },
+    {
+      "doc": 13,
+      "topic": 3,
+      "similarity": 0.8516751479289755
+    },
+    {
+      "doc": 13,
+      "topic": 4,
+      "similarity": 0.7811116145410035
+    },
+    {
+      "doc": 13,
+      "topic": 5,
+      "similarity": 0.7922422721420334
+    },
+    {
+      "doc": 13,
+      "topic": 6,
+      "similarity": 0.7952887236033626
+    },
+    {
+      "doc": 13,
+      "topic": 7,
+      "similarity": 0.8002329256393601
+    },
+    {
+      "doc": 13,
+      "topic": 8,
+      "similarity": 0.7816343868654456
+    },
+    {
+      "doc": 13,
+      "topic": 9,
+      "similarity": 0.7807823040403378
+    },
+    {
+      "doc": 13,
+      "topic": 10,
+      "similarity": 0.782262566340924
+    },
+    {
+      "doc": 13,
+      "topic": 11,
+      "similarity": 0.8033520991209167
+    },
+    {
+      "doc": 13,
+      "topic": 12,
+      "similarity": 0.7563138064770105
+    },
+    {
+      "doc": 13,
+      "topic": 13,
+      "similarity": 0.8033341820690177
+    },
+    {
+      "doc": 13,
+      "topic": 14,
+      "similarity": 0.7860448171539427
+    },
+    {
+      "doc": 13,
+      "topic": 15,
+      "similarity": 0.755056251436582
+    },
+    {
+      "doc": 13,
+      "topic": 16,
+      "similarity": 0.7748997800139577
+    },
+    {
+      "doc": 13,
+      "topic": 17,
+      "similarity": 0.8131109774072349
+    },
+    {
+      "doc": 13,
+      "topic": 18,
+      "similarity": 0.7828807557235368
+    },
+    {
+      "doc": 13,
+      "topic": 19,
+      "similarity": 0.7775525540208168
+    },
+    {
+      "doc": 13,
+      "topic": 20,
+      "similarity": 0.7613522099646293
+    },
+    {
+      "doc": 13,
+      "topic": 21,
+      "similarity": 0.7724453235454727
+    },
+    {
+      "doc": 13,
+      "topic": 22,
+      "similarity": 0.7719808297307151
+    },
+    {
+      "doc": 13,
+      "topic": 23,
+      "similarity": 0.7580359754742028
+    },
+    {
+      "doc": 13,
+      "topic": 24,
+      "similarity": 0.7827197200095137
+    },
+    {
+      "doc": 14,
+      "topic": 0,
+      "similarity": 0.8001460227843895
+    },
+    {
+      "doc": 14,
+      "topic": 1,
+      "similarity": 0.8165665292789455
+    },
+    {
+      "doc": 14,
+      "topic": 2,
+      "similarity": 0.7795651165843931
+    },
+    {
+      "doc": 14,
+      "topic": 3,
+      "similarity": 0.7852693605584244
+    },
+    {
+      "doc": 14,
+      "topic": 4,
+      "similarity": 0.8205483678557552
+    },
+    {
+      "doc": 14,
+      "topic": 5,
+      "similarity": 0.8143057789195258
+    },
+    {
+      "doc": 14,
+      "topic": 6,
+      "similarity": 0.8142982308924666
+    },
+    {
+      "doc": 14,
+      "topic": 7,
+      "similarity": 0.7951482555503018
+    },
+    {
+      "doc": 14,
+      "topic": 8,
+      "similarity": 0.8230662253847325
+    },
+    {
+      "doc": 14,
+      "topic": 9,
+      "similarity": 0.8043657039779459
+    },
+    {
+      "doc": 14,
+      "topic": 10,
+      "similarity": 0.8018354622340593
+    },
+    {
+      "doc": 14,
+      "topic": 11,
+      "similarity": 0.8073017293455876
+    },
+    {
+      "doc": 14,
+      "topic": 12,
+      "similarity": 0.8112191958135093
+    },
+    {
+      "doc": 14,
+      "topic": 13,
+      "similarity": 0.7679038681522625
+    },
+    {
+      "doc": 14,
+      "topic": 14,
+      "similarity": 0.8039598683408331
+    },
+    {
+      "doc": 14,
+      "topic": 15,
+      "similarity": 0.7867437593015283
+    },
+    {
+      "doc": 14,
+      "topic": 16,
+      "similarity": 0.7850509137225546
+    },
+    {
+      "doc": 14,
+      "topic": 17,
+      "similarity": 0.8253793324990638
+    },
+    {
+      "doc": 14,
+      "topic": 18,
+      "similarity": 0.8225959045247048
+    },
+    {
+      "doc": 14,
+      "topic": 19,
+      "similarity": 0.819271238004337
+    },
+    {
+      "doc": 14,
+      "topic": 20,
+      "similarity": 0.7852415005918364
+    },
+    {
+      "doc": 14,
+      "topic": 21,
+      "similarity": 0.8182075969832965
+    },
+    {
+      "doc": 14,
+      "topic": 22,
+      "similarity": 0.8968396190135308
+    },
+    {
+      "doc": 14,
+      "topic": 24,
+      "similarity": 0.7561049842386214
+    },
+    {
+      "doc": 15,
+      "topic": 0,
+      "similarity": 0.7877389558504955
+    },
+    {
+      "doc": 15,
+      "topic": 1,
+      "similarity": 0.8067777588433905
+    },
+    {
+      "doc": 15,
+      "topic": 2,
+      "similarity": 0.7796744752485119
+    },
+    {
+      "doc": 15,
+      "topic": 3,
+      "similarity": 0.8213068630825903
+    },
+    {
+      "doc": 15,
+      "topic": 4,
+      "similarity": 0.7770200884441485
+    },
+    {
+      "doc": 15,
+      "topic": 5,
+      "similarity": 0.7799567792873159
+    },
+    {
+      "doc": 15,
+      "topic": 6,
+      "similarity": 0.7934118351790915
+    },
+    {
+      "doc": 15,
+      "topic": 7,
+      "similarity": 0.7690830979446642
+    },
+    {
+      "doc": 15,
+      "topic": 8,
+      "similarity": 0.7971088623733183
+    },
+    {
+      "doc": 15,
+      "topic": 9,
+      "similarity": 0.783357823492576
+    },
+    {
+      "doc": 15,
+      "topic": 10,
+      "similarity": 0.7760023947064612
+    },
+    {
+      "doc": 15,
+      "topic": 11,
+      "similarity": 0.7713800970958832
+    },
+    {
+      "doc": 15,
+      "topic": 12,
+      "similarity": 0.7696155591710997
+    },
+    {
+      "doc": 15,
+      "topic": 13,
+      "similarity": 0.8013718094711452
+    },
+    {
+      "doc": 15,
+      "topic": 14,
+      "similarity": 0.8009739591637337
+    },
+    {
+      "doc": 15,
+      "topic": 15,
+      "similarity": 0.7803893022319037
+    },
+    {
+      "doc": 15,
+      "topic": 16,
+      "similarity": 0.78063041645154
+    },
+    {
+      "doc": 15,
+      "topic": 17,
+      "similarity": 0.843317325432857
+    },
+    {
+      "doc": 15,
+      "topic": 18,
+      "similarity": 0.8078179762486797
+    },
+    {
+      "doc": 15,
+      "topic": 19,
+      "similarity": 0.7875876251173078
+    },
+    {
+      "doc": 15,
+      "topic": 20,
+      "similarity": 0.7791518132542198
+    },
+    {
+      "doc": 15,
+      "topic": 21,
+      "similarity": 0.7740856921342165
+    },
+    {
+      "doc": 15,
+      "topic": 22,
+      "similarity": 0.7870118399771804
+    },
+    {
+      "doc": 15,
+      "topic": 23,
+      "similarity": 0.7661494458338791
+    },
+    {
+      "doc": 15,
+      "topic": 24,
+      "similarity": 0.7538942924608463
+    },
+    {
+      "doc": 16,
+      "topic": 0,
+      "similarity": 0.8213504731878016
+    },
+    {
+      "doc": 16,
+      "topic": 1,
+      "similarity": 0.7946804444705431
+    },
+    {
+      "doc": 16,
+      "topic": 2,
+      "similarity": 0.7668114920158606
+    },
+    {
+      "doc": 16,
+      "topic": 3,
+      "similarity": 0.7720545025839918
+    },
+    {
+      "doc": 16,
+      "topic": 4,
+      "similarity": 0.7902219787577609
+    },
+    {
+      "doc": 16,
+      "topic": 5,
+      "similarity": 0.7917751536539032
+    },
+    {
+      "doc": 16,
+      "topic": 6,
+      "similarity": 0.786890540779246
+    },
+    {
+      "doc": 16,
+      "topic": 7,
+      "similarity": 0.7635664963075289
+    },
+    {
+      "doc": 16,
+      "topic": 8,
+      "similarity": 0.7851375575333956
+    },
+    {
+      "doc": 16,
+      "topic": 9,
+      "similarity": 0.7867551737900265
+    },
+    {
+      "doc": 16,
+      "topic": 10,
+      "similarity": 0.7869663040859207
+    },
+    {
+      "doc": 16,
+      "topic": 11,
+      "similarity": 0.81326470321
+    },
+    {
+      "doc": 16,
+      "topic": 12,
+      "similarity": 0.8099823440191877
+    },
+    {
+      "doc": 16,
+      "topic": 13,
+      "similarity": 0.7607137025432699
+    },
+    {
+      "doc": 16,
+      "topic": 14,
+      "similarity": 0.8054073724140103
+    },
+    {
+      "doc": 16,
+      "topic": 15,
+      "similarity": 0.782480050662848
+    },
+    {
+      "doc": 16,
+      "topic": 16,
+      "similarity": 0.7855670560431189
+    },
+    {
+      "doc": 16,
+      "topic": 17,
+      "similarity": 0.8132372228399538
+    },
+    {
+      "doc": 16,
+      "topic": 18,
+      "similarity": 0.8220928933504156
+    },
+    {
+      "doc": 16,
+      "topic": 19,
+      "similarity": 0.8098388009108026
+    },
+    {
+      "doc": 16,
+      "topic": 20,
+      "similarity": 0.7818043145854865
+    },
+    {
+      "doc": 16,
+      "topic": 21,
+      "similarity": 0.8071592099605462
+    },
+    {
+      "doc": 16,
+      "topic": 22,
+      "similarity": 0.8762086796293076
+    },
+    {
+      "doc": 16,
+      "topic": 23,
+      "similarity": 0.751092411654252
+    },
+    {
+      "doc": 16,
+      "topic": 24,
+      "similarity": 0.7767151296591779
+    },
+    {
+      "doc": 17,
+      "topic": 0,
+      "similarity": 0.7970500876734251
+    },
+    {
+      "doc": 17,
+      "topic": 1,
+      "similarity": 0.7957909219407139
+    },
+    {
+      "doc": 17,
+      "topic": 2,
+      "similarity": 0.7762179840794634
+    },
+    {
+      "doc": 17,
+      "topic": 3,
+      "similarity": 0.7890379495461064
+    },
+    {
+      "doc": 17,
+      "topic": 4,
+      "similarity": 0.8032504364716129
+    },
+    {
+      "doc": 17,
+      "topic": 5,
+      "similarity": 0.7890741719622218
+    },
+    {
+      "doc": 17,
+      "topic": 6,
+      "similarity": 0.7876861690229637
+    },
+    {
+      "doc": 17,
+      "topic": 7,
+      "similarity": 0.762048857981068
+    },
+    {
+      "doc": 17,
+      "topic": 8,
+      "similarity": 0.788448888654166
+    },
+    {
+      "doc": 17,
+      "topic": 9,
+      "similarity": 0.778536192280975
+    },
+    {
+      "doc": 17,
+      "topic": 10,
+      "similarity": 0.7870281064703227
+    },
+    {
+      "doc": 17,
+      "topic": 11,
+      "similarity": 0.791564233837816
+    },
+    {
+      "doc": 17,
+      "topic": 12,
+      "similarity": 0.8130175719333821
+    },
+    {
+      "doc": 17,
+      "topic": 13,
+      "similarity": 0.773723490617635
+    },
+    {
+      "doc": 17,
+      "topic": 14,
+      "similarity": 0.8039822195930415
+    },
+    {
+      "doc": 17,
+      "topic": 15,
+      "similarity": 0.7834707105234024
+    },
+    {
+      "doc": 17,
+      "topic": 16,
+      "similarity": 0.7967577381766943
+    },
+    {
+      "doc": 17,
+      "topic": 17,
+      "similarity": 0.8147114805708808
+    },
+    {
+      "doc": 17,
+      "topic": 18,
+      "similarity": 0.8157175489609787
+    },
+    {
+      "doc": 17,
+      "topic": 19,
+      "similarity": 0.8279643519549341
+    },
+    {
+      "doc": 17,
+      "topic": 20,
+      "similarity": 0.7822269598385764
+    },
+    {
+      "doc": 17,
+      "topic": 21,
+      "similarity": 0.8032988480778083
+    },
+    {
+      "doc": 17,
+      "topic": 22,
+      "similarity": 0.8472461894127364
+    },
+    {
+      "doc": 17,
+      "topic": 23,
+      "similarity": 0.7633913656067917
+    },
+    {
+      "doc": 17,
+      "topic": 24,
+      "similarity": 0.7871562086102526
+    },
+    {
+      "doc": 18,
+      "topic": 0,
+      "similarity": 0.7707926657451809
+    },
+    {
+      "doc": 18,
+      "topic": 1,
+      "similarity": 0.7815032045096416
+    },
+    {
+      "doc": 18,
+      "topic": 2,
+      "similarity": 0.7660929423669003
+    },
+    {
+      "doc": 18,
+      "topic": 3,
+      "similarity": 0.7794171925846493
+    },
+    {
+      "doc": 18,
+      "topic": 4,
+      "similarity": 0.7848762966702085
+    },
+    {
+      "doc": 18,
+      "topic": 5,
+      "similarity": 0.766092844793025
+    },
+    {
+      "doc": 18,
+      "topic": 6,
+      "similarity": 0.7800899834969933
+    },
+    {
+      "doc": 18,
+      "topic": 7,
+      "similarity": 0.759096732902387
+    },
+    {
+      "doc": 18,
+      "topic": 8,
+      "similarity": 0.7808966947648003
+    },
+    {
+      "doc": 18,
+      "topic": 9,
+      "similarity": 0.7859374395494995
+    },
+    {
+      "doc": 18,
+      "topic": 10,
+      "similarity": 0.7879609604191127
+    },
+    {
+      "doc": 18,
+      "topic": 11,
+      "similarity": 0.7737739641575618
+    },
+    {
+      "doc": 18,
+      "topic": 12,
+      "similarity": 0.7888592504371383
+    },
+    {
+      "doc": 18,
+      "topic": 14,
+      "similarity": 0.7906759257780812
+    },
+    {
+      "doc": 18,
+      "topic": 15,
+      "similarity": 0.7692344331151914
+    },
+    {
+      "doc": 18,
+      "topic": 16,
+      "similarity": 0.7771894358479817
+    },
+    {
+      "doc": 18,
+      "topic": 17,
+      "similarity": 0.779305031845525
+    },
+    {
+      "doc": 18,
+      "topic": 18,
+      "similarity": 0.7781627432107963
+    },
+    {
+      "doc": 18,
+      "topic": 19,
+      "similarity": 0.7871734628249343
+    },
+    {
+      "doc": 18,
+      "topic": 20,
+      "similarity": 0.7719335762547376
+    },
+    {
+      "doc": 18,
+      "topic": 21,
+      "similarity": 0.7909038878046479
+    },
+    {
+      "doc": 18,
+      "topic": 22,
+      "similarity": 0.864207370527662
+    },
+    {
+      "doc": 19,
+      "topic": 0,
+      "similarity": 0.7839311113957016
+    },
+    {
+      "doc": 19,
+      "topic": 1,
+      "similarity": 0.7876556097691771
+    },
+    {
+      "doc": 19,
+      "topic": 2,
+      "similarity": 0.7883332511530827
+    },
+    {
+      "doc": 19,
+      "topic": 3,
+      "similarity": 0.7669305581222445
+    },
+    {
+      "doc": 19,
+      "topic": 4,
+      "similarity": 0.794118732812134
+    },
+    {
+      "doc": 19,
+      "topic": 5,
+      "similarity": 0.7705162485708248
+    },
+    {
+      "doc": 19,
+      "topic": 6,
+      "similarity": 0.7724782675166486
+    },
+    {
+      "doc": 19,
+      "topic": 7,
+      "similarity": 0.7698043169231641
+    },
+    {
+      "doc": 19,
+      "topic": 8,
+      "similarity": 0.8023161094910664
+    },
+    {
+      "doc": 19,
+      "topic": 9,
+      "similarity": 0.7661678782412344
+    },
+    {
+      "doc": 19,
+      "topic": 10,
+      "similarity": 0.7786496825332834
+    },
+    {
+      "doc": 19,
+      "topic": 11,
+      "similarity": 0.778176310279817
+    },
+    {
+      "doc": 19,
+      "topic": 12,
+      "similarity": 0.7770377059002027
+    },
+    {
+      "doc": 19,
+      "topic": 14,
+      "similarity": 0.7823844717980364
+    },
+    {
+      "doc": 19,
+      "topic": 15,
+      "similarity": 0.7759222737456726
+    },
+    {
+      "doc": 19,
+      "topic": 16,
+      "similarity": 0.7771126797593817
+    },
+    {
+      "doc": 19,
+      "topic": 17,
+      "similarity": 0.7725421805523087
+    },
+    {
+      "doc": 19,
+      "topic": 18,
+      "similarity": 0.7888669406036647
+    },
+    {
+      "doc": 19,
+      "topic": 19,
+      "similarity": 0.7914975418814693
+    },
+    {
+      "doc": 19,
+      "topic": 20,
+      "similarity": 0.764250071737695
+    },
+    {
+      "doc": 19,
+      "topic": 21,
+      "similarity": 0.8647715192448311
+    },
+    {
+      "doc": 19,
+      "topic": 22,
+      "similarity": 0.8191775629809765
+    },
+    {
+      "doc": 20,
+      "topic": 0,
+      "similarity": 0.7637411294141603
+    },
+    {
+      "doc": 20,
+      "topic": 1,
+      "similarity": 0.7783277738340699
+    },
+    {
+      "doc": 20,
+      "topic": 2,
+      "similarity": 0.7673508362701333
+    },
+    {
+      "doc": 20,
+      "topic": 3,
+      "similarity": 0.7727851743334153
+    },
+    {
+      "doc": 20,
+      "topic": 4,
+      "similarity": 0.77641696640581
+    },
+    {
+      "doc": 20,
+      "topic": 5,
+      "similarity": 0.7695376419623963
+    },
+    {
+      "doc": 20,
+      "topic": 6,
+      "similarity": 0.7704665880130944
+    },
+    {
+      "doc": 20,
+      "topic": 8,
+      "similarity": 0.7788883822950013
+    },
+    {
+      "doc": 20,
+      "topic": 9,
+      "similarity": 0.7826974741439587
+    },
+    {
+      "doc": 20,
+      "topic": 10,
+      "similarity": 0.7924268211737426
+    },
+    {
+      "doc": 20,
+      "topic": 11,
+      "similarity": 0.7590492150011694
+    },
+    {
+      "doc": 20,
+      "topic": 12,
+      "similarity": 0.7687094848965079
+    },
+    {
+      "doc": 20,
+      "topic": 13,
+      "similarity": 0.7566215269739855
+    },
+    {
+      "doc": 20,
+      "topic": 14,
+      "similarity": 0.8007769651835608
+    },
+    {
+      "doc": 20,
+      "topic": 15,
+      "similarity": 0.7595293866094308
+    },
+    {
+      "doc": 20,
+      "topic": 16,
+      "similarity": 0.793009247992173
+    },
+    {
+      "doc": 20,
+      "topic": 17,
+      "similarity": 0.8021869323617608
+    },
+    {
+      "doc": 20,
+      "topic": 18,
+      "similarity": 0.7914582390316918
+    },
+    {
+      "doc": 20,
+      "topic": 19,
+      "similarity": 0.7996509725810089
+    },
+    {
+      "doc": 20,
+      "topic": 20,
+      "similarity": 0.7564889759438689
+    },
+    {
+      "doc": 20,
+      "topic": 21,
+      "similarity": 0.8638437768081795
+    },
+    {
+      "doc": 20,
+      "topic": 22,
+      "similarity": 0.8004672934018475
+    },
+    {
+      "doc": 21,
+      "topic": 0,
+      "similarity": 0.7749556103804508
+    },
+    {
+      "doc": 21,
+      "topic": 1,
+      "similarity": 0.7871178822951796
+    },
+    {
+      "doc": 21,
+      "topic": 2,
+      "similarity": 0.7516909204541167
+    },
+    {
+      "doc": 21,
+      "topic": 3,
+      "similarity": 0.7808287701190535
+    },
+    {
+      "doc": 21,
+      "topic": 4,
+      "similarity": 0.7663685741331123
+    },
+    {
+      "doc": 21,
+      "topic": 5,
+      "similarity": 0.7792167471974742
+    },
+    {
+      "doc": 21,
+      "topic": 6,
+      "similarity": 0.7737200977350548
+    },
+    {
+      "doc": 21,
+      "topic": 7,
+      "similarity": 0.781723807405313
+    },
+    {
+      "doc": 21,
+      "topic": 8,
+      "similarity": 0.8077751042326624
+    },
+    {
+      "doc": 21,
+      "topic": 9,
+      "similarity": 0.8143742294161509
+    },
+    {
+      "doc": 21,
+      "topic": 10,
+      "similarity": 0.8132143620633312
+    },
+    {
+      "doc": 21,
+      "topic": 11,
+      "similarity": 0.7891664952224196
+    },
+    {
+      "doc": 21,
+      "topic": 12,
+      "similarity": 0.7716013896033799
+    },
+    {
+      "doc": 21,
+      "topic": 13,
+      "similarity": 0.7684198375572767
+    },
+    {
+      "doc": 21,
+      "topic": 14,
+      "similarity": 0.8114721817082475
+    },
+    {
+      "doc": 21,
+      "topic": 15,
+      "similarity": 0.7823632196491547
+    },
+    {
+      "doc": 21,
+      "topic": 16,
+      "similarity": 0.8558832368360452
+    },
+    {
+      "doc": 21,
+      "topic": 17,
+      "similarity": 0.8213588628669408
+    },
+    {
+      "doc": 21,
+      "topic": 18,
+      "similarity": 0.8133333780153356
+    },
+    {
+      "doc": 21,
+      "topic": 19,
+      "similarity": 0.7959483534975916
+    },
+    {
+      "doc": 21,
+      "topic": 20,
+      "similarity": 0.7803767500730565
+    },
+    {
+      "doc": 21,
+      "topic": 21,
+      "similarity": 0.7977354100356027
+    },
+    {
+      "doc": 21,
+      "topic": 22,
+      "similarity": 0.7914071295607221
+    },
+    {
+      "doc": 21,
+      "topic": 23,
+      "similarity": 0.7567066090684869
+    },
+    {
+      "doc": 21,
+      "topic": 24,
+      "similarity": 0.7552987867956806
+    }
+  ]
+}
